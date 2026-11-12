@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.3-labs
 # hadolint global ignore=DL3008
-FROM rust:1.91.1-bullseye@sha256:8d9b5e80062dcdb7f037b4eef92a6649632034d6811652e028706ea93db64159 AS build
+FROM rust:1.98.0-bullseye@sha256:4730e387a220a08a365c77da3096544dde214f9d796c16284d4be45438cad4a9 AS build
 
 ENV DEBIAN_FRONTEND=noninteractive
 
